@@ -84,7 +84,7 @@ window.editCar = function (id) {
 window.detailCar = function (id) {
   const car = cars[id];
   alert(`
-    🚗 Mashina malumotlari
+    Mashina malumotlari
     Nomi: ${car.name}
     Trim: ${car.trim}
     Avlod: ${car.generation}
@@ -99,7 +99,7 @@ window.detailCar = function (id) {
     Dvigatel: ${car.engine}
     Ot kuchi: ${car.horsepower}
     Yoqlig‘i turi: ${car.fuelType}
-    ⛽️ Yonilg‘i sarfi:
+    Yonilg‘i sarfi:
     Shahar: ${car.fuelConsumption.city}
     Trassa: ${car.fuelConsumption.highway}
     O‘rtacha: ${car.fuelConsumption.combined}
