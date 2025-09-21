@@ -49,7 +49,7 @@ showCars();
 
 //OCHIRISH
 window.deleteCar = function (id) {
-  const isConfirmed = confirm("Rostdan ham o‘chirasizmi?");
+  const isConfirmed = confirm("Rostdan ham ochirasizmi?");
   if (isConfirmed) {
     cars.splice(id, 1);
     showCars();
@@ -93,16 +93,16 @@ window.detailCar = function (id) {
     Rangi (nomi): ${car.colorName}
     Kategoriya: ${car.category}
     Eshiklar soni: ${car.doorCount}
-    O‘rindiqlar soni: ${car.seatCount}
+    Orindiqlar soni: ${car.seatCount}
     Maksimal tezligi: ${car.maxSpeed}
     Tezlanishi: ${car.acceleration}
     Dvigatel: ${car.engine}
     Ot kuchi: ${car.horsepower}
-    Yoqlig‘i turi: ${car.fuelType}
-    Yonilg‘i sarfi:
+    Yoqligi turi: ${car.fuelType}
+    Yonilgi sarfi:
     Shahar: ${car.fuelConsumption.city}
     Trassa: ${car.fuelConsumption.highway}
-    O‘rtacha: ${car.fuelConsumption.combined}
+    Ortacha: ${car.fuelConsumption.combined}
     Ishlab chiqarilgan mamlakat: ${car.country}
     Tavsif: ${car.description}
   `);
